@@ -38,4 +38,29 @@
     }
   }
 
+  @keyframes fade-in{
+    from {
+      opacity : 0;
+      translateY(20px);
+    }
+    to {
+      opacity : 1;
+      translateY(0px);
+    }
+  }
+  @keyframes meteor {
+    0% {
+      transform : rotate(215deg) translateX(0px);
+      opacity : 1;
+    }
+    70%{
+      opacity : 1;
+    }
+    100% {
+      transform : rotate(215deg) translateX(-500px);
+      opacity: 0;
+    }
+  }
+
+
 }
